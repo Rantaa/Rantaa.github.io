@@ -74,10 +74,11 @@ hr {
 }
 
 .top-container {
-  background-color: #EAF6F6;
   position: relative;
   padding-top: 150px;
   height: 100%;
+  background-color: #EAF6F6; /* For browsers that do not support gradients */
+  background-image: radial-gradient(90% 90% at center, #EAF6F6, #66BFBF);
 }
 
 .middle-container {
@@ -154,11 +155,11 @@ hr {
 
 .btn {
   background: #11cdd4;
-  background-image: -webkit-linear-gradient(top, #11cdd4, 11999e);
-  background-image: -moz-linear-gradient(top, #11cdd4, 11999e);
-  background-image: -ms-linear-gradient(top, #11cdd4, 11999e);
-  background-image: -o-linear-gradient(top, #11cdd4, 11999e);
-  background-image: linear-gradient(to bottom, #11cdd4, 11999e);
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
@@ -177,8 +178,51 @@ hr {
   background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
+  color: #ffffff;
 }
 
 #carouselExampleSlidesOnly {
   margin: auto 30% auto 30%;
+}
+
+#coding {
+  visibility:hidden;
+}
+
+#python {
+  visibility: hidden;
+}
+
+.right-slide {
+  transform: translateX(-80vw);
+  animation: right-slide .8s ease forwards;
+}
+
+@keyframes right-slide {
+  to { transform: translateX(0); }
+}
+
+.left-slide {
+  transform: translateX(80vw);
+  animation: right-slide .8s ease forwards;
+}
+
+@keyframes left-slide {
+  to { transform: translateX(0); }
+}
+
+.slide-out-right {
+  animation: slide-out-right .8s ease forwards;
+}
+
+@keyframes slide-out-right {
+  to {transform: translateX(80vw); }
+}
+
+.slide-out-left {
+  animation: slide-out-left .8s ease forwards;
+}
+
+@keyframes slide-out-left {
+  to {transform: translateX(-80vw); }
 }
