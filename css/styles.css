@@ -123,8 +123,22 @@ hr {
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
+  left: 200px;
   bottom: 300px;
+}
+
+.flex {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.mountain {
+  position: absolute;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 0;
 }
 
 .coding-img {
