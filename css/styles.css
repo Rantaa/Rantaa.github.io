@@ -324,3 +324,20 @@ hr {
     transform: translateX(-80vw);
   }
 }
+
+
+@media (max-width: 1028px) {
+
+  h1 {
+    font-size: 10rem;
+  }
+
+  h2 {
+    font-size: 8rem;
+  }
+
+  h3 {
+    font-size: 5rem;
+  }
+
+}
