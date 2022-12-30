@@ -1,7 +1,3 @@
-html, body {
-  overflow-x: hidden;
-}
-
 html {
   height: 100%;
 }
@@ -325,19 +321,52 @@ hr {
   }
 }
 
+.orientleft #shell {
+    -webkit-transform: rotate(-90deg);
+    -webkit-transform-origin:160px 160px;
+}
+
+.orientright #shell {
+    -webkit-transform: rotate(90deg);
+    -webkit-transform-origin:230px 230px;
+}
+
 
 @media (max-width: 1028px) {
+  html, body {
+    overflow-x: hidden;
+  }
 
   h1 {
-    font-size: 10rem;
+    font-size: 12rem;
+    padding-top: 20vh;
+  }
+
+  .hello {
+    font-size: 8rem;
   }
 
   h2 {
-    font-size: 4rem;
+    font-size: 5rem;
   }
 
   h3 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+
+  .profile {
+    transform: scale(1.2);
+  }
+
+  .footer-img {
+    width: 8%;
+    min-width: 40px;
+    color: white;
+    padding-bottom: 5px;
   }
 
 }
