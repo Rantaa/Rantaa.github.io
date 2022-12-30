@@ -352,12 +352,12 @@ hr {
 
   h3 {
     font-size: 3.5rem;
-    margin: 40px 20px 0px 20px;
+    margin: 40px 10px 0px 10px;
   }
 
   p {
     font-size: 2.5rem;
-    margin: 20px 30px 60px 30px;
+    margin: 20px 8px 60px 8px;
   }
 
   .profile {
@@ -369,7 +369,7 @@ hr {
     width: 12%;
     min-width: 40px;
     color: white;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
   }
 
 }
