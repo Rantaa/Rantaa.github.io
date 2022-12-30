@@ -49,9 +49,12 @@ h3, a {
   display: inline;
 }
 
+.contact-h {
+  margin: 40px 20% auto 20%;
+}
 
 .contact-p {
-  margin: 60px auto 60px auto;
+  margin: 20px auto 60px auto;
   width: 40vw;
 }
 
@@ -172,11 +175,11 @@ hr {
 
 .btn:hover {
   background: #30e3cb;
-  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  background-image: -webkit-linear-gradient(top, #2596be, #11999e);
+  background-image: -moz-linear-gradient(top, #2596be, #11999e);
+  background-image: -ms-linear-gradient(top, #2596be, #11999e);
+  background-image: -o-linear-gradient(top, #2596be, #11999e);
+  background-image: linear-gradient(to bottom, #2596be, #11999e);
   text-decoration: none;
   color: #ffffff;
 }
