@@ -321,14 +321,13 @@ hr {
   }
 }
 
-.orientleft #shell {
-    -webkit-transform: rotate(-90deg);
-    -webkit-transform-origin:160px 160px;
-}
-
-.orientright #shell {
+.portrait {
     -webkit-transform: rotate(90deg);
-    -webkit-transform-origin:230px 230px;
+    -webkit-transform-origin: 200px 190px;
+}
+.portrait-onready {
+    -webkit-transform: rotate(90deg);
+    -webkit-transform-origin: 165px 150px;
 }
 
 
@@ -353,13 +352,16 @@ hr {
 
   h3 {
     font-size: 3.5rem;
+    margin: 40px 20px 0px 20px;
   }
 
   p {
     font-size: 2.5rem;
+    margin: 20px 30px 60px 30px;
   }
 
   .profile {
+    padding-top: 10px;
     transform: scale(1.2);
   }
 
