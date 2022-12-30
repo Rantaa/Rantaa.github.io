@@ -106,12 +106,14 @@ hr {
 
 .footer-img {
   width: 4%;
+  min-width: 40px;
   color: white;
   padding-bottom: 5px;
 }
 
 .footer-img:hover {
   width: 4.3%;
+  min-width: 40.2px;
   padding-bottom: 0;
 }
 
@@ -142,18 +144,18 @@ hr {
 }
 
 .coding-img {
-  width: 16%;
+  width: 25%;
   float: left;
   margin-right: 30px;
 }
 
 .python-img {
-  width: 16%;
+  width: 25%;
   float: right;
   margin-left: 30px;
 }
 
-.python-img:hover {
+/* .python-img:hover {
   width: 16.5%;
   margin-left: 25px;
 }
@@ -161,7 +163,7 @@ hr {
 .coding-img:hover {
   width: 16.5%;
   margin-right: 25px;
-}
+} */
 
 .skill-row {
   width: 60vw;
