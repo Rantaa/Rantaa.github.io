@@ -339,11 +339,12 @@ hr {
 
   h1 {
     font-size: 12rem;
-    padding-top: 20vh;
+    padding-top: 15vh;
   }
 
   .hello {
-    font-size: 8rem;
+    font-size: 7rem;
+    padding-top: 10px;
   }
 
   h2 {
@@ -360,6 +361,10 @@ hr {
 
   .profile {
     transform: scale(1.2);
+  }
+
+  .contact-me h3, p {
+    text-align: left
   }
 
   .footer-img {
