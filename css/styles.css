@@ -321,15 +321,6 @@ hr {
   }
 }
 
-.portrait {
-    -webkit-transform: rotate(90deg);
-    -webkit-transform-origin: 200px 190px;
-}
-.portrait-onready {
-    -webkit-transform: rotate(90deg);
-    -webkit-transform-origin: 165px 150px;
-}
-
 
 @media (max-width: 1028px) {
   html, body {
@@ -372,4 +363,16 @@ hr {
     padding-bottom: 10px;
   }
 
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+  html {
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    width: 100vh;
+    overflow-x: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
 }
