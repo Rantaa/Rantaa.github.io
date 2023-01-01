@@ -412,11 +412,25 @@ hr {
     padding-bottom: 10px;
   }
 
+  .contact-h {
+    display: inline-block;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 80vw;
+  }
+
+  .btn {
+    transform: scale(2);
+    margin: 80px;
+  }
+
   .footer-img {
     width: 12%;
     min-width: 40px;
     color: white;
     padding-bottom: 10px;
   }
+
+
 
 }
