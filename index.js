@@ -1,5 +1,3 @@
-import * as ScreenOrientation from 'expo-screen-orientation';
-
 var leftItem = document.getElementById('coding'),
   rightItem = document.getElementById('python'),
   tableDiv = document.getElementById("inner-table-slide");
@@ -74,7 +72,3 @@ window.addEventListener("optimizedScroll", function() {
   }
 
 })
-
-(async function changeScreenOrientation() {
-  await ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.PORTRAIT_UP);
-}();
