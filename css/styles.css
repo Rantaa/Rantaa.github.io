@@ -5,7 +5,7 @@ html {
 body {
   margin: 0;
   text-align: center;
-  font-family: "Merriweather", serif;
+  font-family: "Montserrat", sans-serif;
   height: 100%;
 }
 
@@ -13,6 +13,8 @@ h1 {
   margin: 100px auto 0 auto;
   font-family: "Sacramento", cursive;
   font-size: 5.625rem;
+  position: relative;
+  z-index: 1;
 }
 
 h2 {
@@ -52,7 +54,7 @@ a {
 }
 
 .contact-h {
-  margin: 40px 20% auto 20%;
+  margin: 40px 20% 40px 20%;
 }
 
 .contact-p {
@@ -70,6 +72,10 @@ hr {
 
 .profile {
   margin-bottom: 20px;
+}
+
+.profile-pic {
+  padding: 10px 0 50px 0;
 }
 
 .presentation {
@@ -277,6 +283,7 @@ hr {
 
 #carouselExampleSlidesOnly {
   margin: auto;
+  z-index: 1;
 }
 
 .right-slide {
@@ -346,14 +353,48 @@ hr {
     margin: 40px 10px 0px 10px;
   }
 
+  h5 {
+    font-size: 2.5rem;
+  }
+
   p {
     font-size: 2.5rem;
     margin: 20px 8px 60px 8px;
   }
 
   .profile {
+    justify-content: center;
+  }
+
+
+  .profile-pic {
+    padding: 10px 0 100px 0;
+    transform: scale(1.5);
+  }
+
+  .presentation {
+    display: inline-block;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 80vw;
+  }
+
+  .fa-brands, .fa-database {
+    font-size: 2.5rem;
+    margin-right: 10px;
+    color: #66BFBF;
+  }
+
+  .haskell {
     padding-top: 10px;
-    transform: scale(1.2);
+    transform: scale(1.4);
+    filter: brightness(0) saturate(100%) invert(71%) sepia(41%) saturate(385%) hue-rotate(131deg) brightness(89%) contrast(91%);
+  }
+
+  .fa-star {
+    font-size: 1.4rem;
+    color: #66BFBF;
+    padding-bottom: 10px;
   }
 
   .footer-img {

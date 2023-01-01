@@ -72,3 +72,19 @@ window.addEventListener("optimizedScroll", function() {
   }
 
 })
+
+const content = document.querySelector("body");
+
+const portraitContent = content.outerHTML;
+
+const landscapeContent = "<body><div class='top-container'><h2>Please rotate your device to portrait mode</h2></div></body>";
+
+window.matchMedia("(orientation: portrait)").addEventListener("change", e => {
+  const portrait = e.matches;
+
+  if (portrait) {
+    content.innerHTML = portraitContent;
+  } else if (screen.width < 1028){
+    content.innerHTML = landscapeContent;
+  }
+});
