@@ -359,7 +359,10 @@ hr {
 
   p {
     font-size: 2.5rem;
-    margin: 20px 8px 60px 8px;
+    display: inline-block;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 80vw;
   }
 
   .profile {
@@ -377,6 +380,18 @@ hr {
     margin-left: 0px;
     margin-right: 0px;
     width: 80vw;
+  }
+
+  .skill-row {
+    display: inline-block;
+    width: 80vw;
+    margin: 100px 0px auto 0px;
+    text-align: left;
+    line-height: 2;
+  }
+
+  .coding-img, .python-img {
+    transform: scale(.8);
   }
 
   .fa-brands, .fa-database {
